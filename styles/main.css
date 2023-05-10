@@ -152,18 +152,6 @@ li{
     background-color: var(--mainBorderColor);
     height: 1px;
 }
-<style>
-    table {
-        border-collapse: separate;
-        border-spacing: 20px;
-        column-gap: 50px;
-        row-gap: 5px;
-    }
-    th, td {
-        padding: 10px;
-        border: 1px solid rgb(185, 170, 170);
-    }
-</style>
 
 
 @media(max-width:600px){
@@ -193,3 +181,16 @@ li{
         padding-left: 0;
     }
 }
+
+<style>
+    table {
+        border-collapse: separate;
+        border-spacing: 20px;
+        column-gap: 50px;
+        row-gap: 5px;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid rgb(185, 170, 170);
+    }
+</style>
